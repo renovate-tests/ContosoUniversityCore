@@ -1,6 +1,7 @@
 {
   "extends": ["config:base"],
-  "enabledManagers": ["nuget"],
+  "prHourlyLimit": 0,
+  "renovateFork": true,
   "nuget": {
     "enabled": true
   }
